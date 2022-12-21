@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,23 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body{
+  font-family: 'Roboto',sans-serif;
+}
+
+label{
+  font-size: .7rem;
+}
+input.form-control,input.form-control:focus{
+  background-color: #f0f0ff;
+}
+
+.error{
+  position: absolute;
+  color: red;
+  font-size: .6rem;
 }
